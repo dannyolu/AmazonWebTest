@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.039122">
+<testcase classname="Login requirement feature" name="1_Login with valid credentials" time="5.039122">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.magento.app.pages.BasePage.goToAccountPage(BasePage.java:48)&#13;&#10;&#9;at com.magento.app.steps.LoginSteps.iAmInTheLoginPage(LoginSteps.java:46)&#13;&#10;&#9;at ✽.Given I am in the login page(sprint_1/Magento_Login.feature:8)&#13;&#10;"><![CDATA[Given I am in the login page................................................failed
+When login successfully with "dannyolu@yahoo.com" & "high123"...............undefined
+Then I should see my credential.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.magento.app.pages.BasePage.goToAccountPage(BasePage.java:48)
+	at com.magento.app.steps.LoginSteps.iAmInTheLoginPage(LoginSteps.java:46)
+	at ✽.Given I am in the login page(sprint_1/Magento_Login.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
