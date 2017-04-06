@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4034196863,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.testSetUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "1_Login with valid credentials",
+        "description": "",
+        "id": "login-requirement-feature;1-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 901150720,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.testCleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103774604,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.magento.app.pages.BasePage.goToAccountPage(BasePage.java:48)\r\n\tat com.magento.app.steps.LoginSteps.iAmInTheLoginPage(LoginSteps.java:46)\r\n\tat ✽.Given I am in the login page(sprint_1/Magento_Login.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I am in the login page",
+            "match": {
+              "location": "LoginSteps.iAmInTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "login successfully with \"dannyolu@yahoo.com\" \u0026 \"high123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I should see my credential",
+            "match": {
+              "location": "LoginSteps.iShouldSeeMyCredential()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login requirement feature",
+    "description": "As a customer of magento\r\nI want login to the application\r\nSo that i can buy item",
+    "id": "login-requirement-feature",
+    "keyword": "Feature",
+    "uri": "sprint_1/Magento_Login.feature"
+  }
+]
